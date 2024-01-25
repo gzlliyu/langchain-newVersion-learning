@@ -1,0 +1,4 @@
+langchain
+fastapi
+openai
+httpx
