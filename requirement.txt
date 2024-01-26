@@ -2,4 +2,9 @@ langchain
 langchain-openai
 fastapi
 openai
+# 用于http请求代理设置的库
 httpx
+# beautifulsoup4（bs4）用于从HTML中解析内容的库
+bs4
+# faiss-cpu 用于向量计算的库
+faiss-cpu
