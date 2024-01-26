@@ -1,7 +1,7 @@
-from langchain_community.chat_models import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 import httpx
+from langchain_openai import ChatOpenAI
 
 # 简单的llm提问
 llm = ChatOpenAI(http_client=httpx.Client(proxies="http://127.0.0.1:23457"))

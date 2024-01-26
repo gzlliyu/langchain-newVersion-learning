@@ -28,7 +28,7 @@ langchain是一个基于Python的AIGC助手工具包，它提供了一系列的�
 
 ### day1:使用langchain对接llm问答：
 ```python
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 import httpx

@@ -1,4 +1,5 @@
 langchain
+langchain-openai
 fastapi
 openai
 httpx
