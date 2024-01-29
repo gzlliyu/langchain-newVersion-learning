@@ -31,3 +31,5 @@ retrieval_chain = create_retrieval_chain(retriever=retrieval, combine_docs_chain
 for chunk in retrieval_chain.stream({"input": "langchain是什么？"}):#流式返回
     if 'answer' in chunk:
         print(chunk['answer'], end=' ')
+
+
