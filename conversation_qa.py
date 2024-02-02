@@ -1,4 +1,5 @@
 import httpx
+from langchain import hub
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores.faiss import FAISS
@@ -33,9 +34,10 @@ prompt_f = ChatPromptTemplate.from_messages([
 document_chain = create_stuff_documents_chain(llm, prompt_f)
 retrieval_chain = create_retrieval_chain(retriever_chain, document_chain)
 
-res = retrieval_chain.invoke({
+for chunk in retrieval_chain.stream({
     "chat_history": chat_history,
     'input': "他是怎么实现的"
-})
+}):
+    if 'answer' in chunk:
+        print(chunk['answer'], end='')
 
-print(res)

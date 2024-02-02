@@ -8,3 +8,4 @@ httpx
 bs4
 # faiss-cpu 用于向量计算的库
 faiss-cpu
+langchainhub
