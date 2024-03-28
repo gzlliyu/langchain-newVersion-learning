@@ -3,7 +3,7 @@ from langchain import hub
 from langchain.agents import create_openai_functions_agent, AgentExecutor
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.tools.retriever import create_retriever_tool
-from langchain_community.document_loaders import WebBaseLoader
+from langchain_community.document_loaders.web_base import WebBaseLoader
 from langchain_community.vectorstores.faiss import FAISS
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 

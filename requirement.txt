@@ -1,5 +1,5 @@
-langchain
-langchain-openai
+langchain>=0.1.10
+langchain-openai>=0.1.1
 fastapi
 openai
 # 用于http请求代理设置的库
@@ -9,3 +9,7 @@ bs4
 # faiss-cpu 用于向量计算的库
 faiss-cpu
 langchainhub
+unstructured
+networkx
+pandas
+openpyxl
