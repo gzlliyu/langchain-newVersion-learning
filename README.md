@@ -1,6 +1,10 @@
 # langchain新版本学习指南
 （langchain version >= 0.1.0）
 
+## 0. 一起学习LangChain
+* <img src="https://github.com/gzlliyu/chatStreamAiAgent/assets/137682921/80ea413e-ba56-4a44-94e4-9e18c41fded3" width="200" height="200">
+
+
 ## 1. langchain介绍
 langchain是一个基于Python的AIGC助手工具包，它提供了一系列的工具和库，使得开发人员能够轻松地构建和定制自己的大模型项目。
 
