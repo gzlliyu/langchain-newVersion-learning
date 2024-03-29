@@ -32,7 +32,7 @@ async def agent_stream(question: str, chat_history: str):
         retriever=retriever,
         name='常见客户问答',
         description="当用户询问商品位置、购买方式、如何退货等问题时使用本工具获取提示信息。如果其他工具都不是你想要的，回答用户问题时必须使用此工具获取提示信息。"
-                    "你需要根据用户的最新提问结合部分相关有用的提示回答医生，无关的提示需要忽略"
+                    "你需要根据用户的最新提问结合部分相关有用的提示回答客户，无关的提示需要忽略"
     )
 
     tools = [
