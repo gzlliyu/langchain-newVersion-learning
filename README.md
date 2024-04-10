@@ -1,3 +1,5 @@
+# 如果有用，期待你的star ~
+
 # langchain新版本学习指南
 （langchain version >= 0.1.0）
 
