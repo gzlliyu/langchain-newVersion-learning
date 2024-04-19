@@ -173,3 +173,5 @@ async def agent_stream(question: str, chat_history: str):
             else:
                 tmp_answer += content
 ```
+
+### day4 深度解析MultiVectorRetriever，详见：multi_vector_retriever.py
